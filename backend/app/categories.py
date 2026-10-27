@@ -1,0 +1,28 @@
+CLASSES = ["plastic", "paper", "glass", "metal", "organic", "trash"]
+CATEGORIES = {
+ "plastic": dict(name="Plastic", bin="Yellow / Dry Recyclables", recyclable="Recyclable", decomposition="100-500 years",
+   description="Bottles, containers, bags and wrappers made from synthetic polymers.",
+   examples=["Water bottles","Food containers","Plastic bags","Wrappers","Bottle caps"],
+   tips=["Rinse and dry before disposal","Remove caps and labels where possible","Check local rules for soft plastics"]),
+ "paper": dict(name="Paper & Cardboard", bin="Blue / Paper Recyclables", recyclable="Recyclable", decomposition="2-6 weeks",
+   description="Paper-based items such as newspapers, cardboard and office paper.",
+   examples=["Newspapers","Cardboard boxes","Office paper","Magazines","Paper bags"],
+   tips=["Keep dry and clean","Flatten cardboard","Greasy or wet paper is not recyclable"]),
+ "glass": dict(name="Glass", bin="Glass Recycling (per local rules)", recyclable="Recyclable", decomposition="~1 million years",
+   description="Glass bottles, jars and containers.",
+   examples=["Glass bottles","Jars","Containers"],
+   tips=["Separate by local collection rules","Wrap broken glass safely","Do not mix with ceramics"]),
+ "metal": dict(name="Metal", bin="Yellow / Dry Recyclables", recyclable="Recyclable", decomposition="50-200 years",
+   description="Aluminium cans, steel tins and metal containers.",
+   examples=["Aluminium cans","Steel tins","Metal containers"],
+   tips=["Empty and rinse","Crush cans to save space","Fold sharp lids inward"]),
+ "organic": dict(name="Organic / Biodegradable", bin="Green / Wet Waste or Compost", recyclable="Compostable", decomposition="2 weeks-6 months",
+   description="Food scraps and other biodegradable material.",
+   examples=["Fruit peels","Vegetable scraps","Suitable food waste"],
+   tips=["Compost or use wet-waste collection","Avoid plastic bags in compost","Drain excess liquid"]),
+ "trash": dict(name="Trash", bin="Black / Residual Waste", recyclable="Not recyclable", decomposition="Varies widely",
+   description="Contaminated or mixed-material items that cannot be recycled.",
+   examples=["Contaminated packaging","Mixed materials","Certain disposable items"],
+   tips=["Place in residual waste","Reduce single-use items","Follow local rules"]),
+}
+NOTE = "Bin colours and rules vary by municipality; decomposition times are approximate."

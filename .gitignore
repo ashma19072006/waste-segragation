@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+node_modules/
+dist/
+backend/waste.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/models/*.keras
+dataset/train/
+dataset/val/
+dataset/test/
+.env
